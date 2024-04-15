@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+        <!-- /*https://www.figma.com/file/Fn4LAjkZym47vX2bO64Tsh/Basketball-Scoreboard-(Copy)?type=design&node-id=127-3&mode=design&t=1R1lNfwnlSWf6S5C-0 */ -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <h2 id="scoreDisplay" class="score">0</h2>
+                <div>
+                    <button id="homeOne-btn" onclick="homeOne()">+1</button>
+                    <button id="homeTwo-btn" onclick="homeTwo()">+2</button>
+                    <button id="homeThree-btn" onclick="homeThree()">+3</button>
+                    <button id="homeReset-btn" onclick="homeReset()">Reset</button>
+                </div>
+             </div>
+             <div class="column">
+                <h3>GUEST</h3>
+                <h2 id="guestDisplay" class="score">0</h2>
+                <div>
+                    <button id="guestOne-btn" onclick="guestOne()">+1</button>
+                    <button id="guestTwo-btn" onclick="guestTwo()">+2</button>
+                    <button id="guestThree-btn" onclick="guestThree()">+3</button>
+                    <button id="guestReset-btn" onclick="guestReset()">Reset</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

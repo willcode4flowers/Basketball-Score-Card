@@ -1,0 +1,55 @@
+/* 
+Project Requirement: 
+Score Color: background: #F94F6D; 
+Home Score Color: background: #EEEEEE;
+Button Color: background: #9AABD8;
+Main: background: #1B244A;
+*/
+
+
+body { 
+  margin: 50px;
+  text-align: center;
+  font-family: "Orbitron", sans-serif; 
+}
+
+h3 {
+    font-size: 45px; 
+    color: #fff; 
+    margin-bottom: 0; 
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 200px;
+    margin: 30px;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;  
+    display: flex;
+    justify-content: space-around;
+    background: #111827;
+    border-bottom: 15px solid #d8cefe; 
+    border-right: 20px solid; 
+    border-left: 20px solid;  
+}
+
+button {
+    margin-bottom: 30px; 
+    padding: 6px; 
+    background: none;
+    color: #ffff;
+    border: 1px solid #fff; 
+}
+
+button:hover {
+    background-color: #d8cefe; 
+    font-weight: bold; 
+}
+
+
