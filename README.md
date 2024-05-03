@@ -1,3 +1,7 @@
+To View the Basketball Score Card App: https://incredible-pastelito-3992b0.netlify.app/
+
+
+
 Quick start:
 
 ```
